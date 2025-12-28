@@ -11,3 +11,7 @@ Feature :
 5. JS :  Theme Swap option change the Dark mode to Light mode and Light mode to Dark mode .  
 7. FOOTER : hover on GitHub and Linkedln icon result in change of color of text of icon.
 8. FOOTER : click on GitHub and Linkedln icon result to my social page .
+
+
+Learning source 
+(youtube , mdn documentation , talwind css documentation , Google gemini )
