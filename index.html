@@ -16,7 +16,7 @@
             .mobile-only-feature { display: block !important; }
        }
         body { font-family: 'Space Grotesk', sans-serif; transition: all 0.4s ease; }
-        /* Light Theme Styles */
+    
         body.light-mode { background-color: #ffffff; color: #1a1a1a; }
         .light-mode .glass { background: rgba(0, 0, 0, 0.05); border-color: rgba(0, 0, 0, 0.1); }
         .light-mode .text-gray-400 { color: #2d5a27; } /* Dark Green shade for text */
@@ -139,8 +139,7 @@
             const body = document.body;
             const logoSpan = document.getElementById('logo-span');
             body.classList.toggle('light-mode');
-            
-            // Adjust logo text color for white background
+        
             if (body.classList.contains('light-mode')) {
                 logoSpan.style.color = '#1a1a1a';
             } else {
